@@ -231,10 +231,11 @@
     </section>
 
 -->
-<section id="contact" class="map">  
-    <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
+<section id="contact" class="map">
+     <iframe <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"   
+    src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script>
         <div style='overflow:hidden;height:440px;width:700px;'><div id='gmap_canvas' style='height:440px;width:700px;'>
-            
+     >       
         </div>
         <div>
             <small>
@@ -251,6 +252,7 @@
         </div>
     
     <script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(40.7403679,-73.99564699999996),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.7403679,-73.99564699999996)});infowindow = new google.maps.InfoWindow({content:'<strong>Title</strong><br>115 W 18th St, New York, NY 10011<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+   </iframe>
 </section>
     <!-- Footer -->
     <footer>
